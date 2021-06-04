@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="calculadora">
+        <div class="pantalla">
+            <div id="valor-anterior" ></div>
+            <div id='valor-actual'></div>
+        </div>
+        <div class="botones">
+            <div class="panel-numeros">
+                <div class="fila-1">
+                    <button class='numeros' value="7" type="button" id="siete">7</button>
+                    <button class='numeros' value="8" type="button" id="ocho">8</button>
+                    <button class='numeros' value="9" type="button" id="nueve">9</button>
+                </div> 
+                <div class="fila-2">
+                    <button class='numeros' value="4" type="button" id="cuatro">4</button>
+                    <button class='numeros' value="5" type="button" id="cinco">5</button>
+                    <button class='numeros' value="6" type="button" id="seis">6</button>
+                </div>
+                <div class="fila-3">
+                    <button class='numeros' value="1" type="button" id="uno">1</button>
+                    <button class='numeros' value="2" type="button" id="dos">2</button>
+                    <button class='numeros' value="3" type="button" id="tres">3</button>
+                </div>
+                <div class="fila-4">
+                    <button class='numeros' type="button" id="coma">.</button>
+                    <button class='numeros' value="0" type="button" id="cero">0</button> 
+                    <button type="button" class="operador" value="igual" id="igual">=</button>
+                </div>
+                
+            </div>
+            <div class="operaciones">
+                <aside>
+                    <button type="button" id="borrar">&larr;</button>
+                    <button type="button" id="clear">C</button>
+                    <button type="button" class="operador" value="sumar" id="suma">+</button>
+                    <button type="button" class="operador" value="restar" id="resta">-</button>
+                    <button type="button" class="operador" value='multiplicar' id="multi">X</button>
+                    <button type="button" class="operador" value='dividir' id="divi">/</button>
+                </aside>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
